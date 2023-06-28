@@ -1,0 +1,54 @@
+{
+    "name": "MinimapInputAction",
+    "maps": [
+        {
+            "name": "Mini Map",
+            "id": "f735bb99-aed4-42a9-87cd-0215f5619ef3",
+            "actions": [
+                {
+                    "name": "Max",
+                    "type": "Button",
+                    "id": "8313ad3e-ce0f-4aa6-a411-a47eede683ce",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Zoom",
+                    "type": "Value",
+                    "id": "4eb5e4a6-03a9-42d4-bce7-23e588fc7499",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "efadb5cd-de7f-4e7a-b2f5-45057575c141",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Max",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e1c616a-f741-430d-bb96-42d4865a4cc7",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

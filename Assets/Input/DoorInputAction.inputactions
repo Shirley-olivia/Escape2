@@ -1,0 +1,45 @@
+{
+    "name": "DoorInputAction",
+    "maps": [
+        {
+            "name": "Door",
+            "id": "1d6d86e5-5b1a-4735-8176-50b5deb7e816",
+            "actions": [
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "2bf70812-8d40-4981-8932-a57afff4f7d9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "57769491-15aa-4059-851d-1b9f32ad8655",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2997ca43-031d-46f6-97c3-24357705f6d9",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
